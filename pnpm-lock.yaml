@@ -1,0 +1,22 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@minecraft/server':
+    specifier: ^1.7.0
+    version: 1.7.0
+
+packages:
+
+  /@minecraft/common@1.1.0:
+    resolution: {integrity: sha512-stbUtINCXbcLNRlGNVX68xRC6ZYq3k3CYmfptwrCcPBEUjVOpVkSj3H4Y0qiSYB+1rVWv7DgiP7Uf9++50Ne5g==}
+    dev: false
+
+  /@minecraft/server@1.7.0:
+    resolution: {integrity: sha512-4q9N3vdLZMAUxPo//bovimPbPLuPbHbQC507ZB2h++dqOGWUGnCcTXTNRg2zkBwMonAzWHONkUsVr5tsi9BHcg==}
+    dependencies:
+      '@minecraft/common': 1.1.0
+    dev: false
